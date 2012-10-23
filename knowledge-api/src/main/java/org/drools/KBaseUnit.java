@@ -6,6 +6,8 @@ import org.drools.runtime.StatefulKnowledgeSession;
 
 public interface KBaseUnit {
 
+    String getKBaseName();
+
     KnowledgeBase getKnowledgeBase();
 
     boolean hasErrors();
